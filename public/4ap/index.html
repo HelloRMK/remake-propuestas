@@ -137,6 +137,14 @@ section{padding-block:clamp(28px,4.5vw,44px)}
 .tl .pts-mini{display:flex;flex-wrap:wrap;gap:5px}
 .tl .pts-mini span{font-size:.64rem;font-weight:600;color:var(--mut);border:1px solid var(--line);border-radius:999px;padding:3px 8px}
 .tl .pts-mini b{color:var(--coral);font-family:var(--disp);font-weight:700;margin-right:4px}
+.access{margin-top:16px;border:1.5px solid var(--coral);border-radius:var(--r);padding:22px;background:var(--coral-soft)}
+.access .aeye{font-family:var(--disp);font-size:.6rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--coral);display:block}
+.access h3{font-family:var(--disp);margin:7px 0 0;font-size:1.32rem;font-weight:700}
+.access .ap{color:var(--ink);font-size:.95rem;margin:12px 0 0}
+.access .ap b{font-weight:700}
+.access .ap.tiny{font-size:.82rem;color:var(--mut);margin-top:10px}
+.access .mailrow{margin-top:13px}
+.access .mail{display:inline-block;font-family:var(--disp);font-weight:700;font-size:clamp(.9rem,3.4vw,1.1rem);color:#fff;background:var(--coral);border-radius:999px;padding:10px 18px;word-break:break-all}
 
 /* inversión */
 .scope{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}
@@ -211,7 +219,7 @@ section{padding-block:clamp(28px,4.5vw,44px)}
 
 <div class="top"><div class="in">
   <div class="co"><span>4AP</span><span class="x">×</span><svg class="rmk" viewBox="0 0 608.19 142.31" aria-label="REMAKE"><use href="#rmk"/></svg></div>
-  <a class="cta" href="#cronograma">Ver tiempos</a>
+  <a class="cta" href="#cronograma">Cómo lo hacemos</a>
 </div></div>
 
 <div class="wrap">
@@ -523,15 +531,23 @@ section{padding-block:clamp(28px,4.5vw,44px)}
 </div></section>
 
 <section class="band" id="cronograma"><div class="wrap">
-  <span class="eyebrow">03 · Cronograma</span>
-  <h2 class="h2">Ejecución por etapas</h2>
-  <p class="p" style="margin-top:12px">Estimado total: <b>10–15 días hábiles</b> desde tu OK y el envío de referencias. Trabajamos en paralelo por etapas — las de diseño arrancan cuando lleguen tus referencias.</p>
+  <span class="eyebrow">03 · Cómo lo hacemos</span>
+  <h2 class="h2">Apruebas, lo hacemos y lo ves en vivo</h2>
+  <p class="p" style="margin-top:12px">Nada de esperas a ciegas. Trabajamos directo sobre tu tienda y te vamos mostrando cada cambio funcionando de verdad.</p>
   <div class="tl">
-    <div class="st"><span class="day g">Día 0</span><div class="c"><h4>Arranque</h4><p>Tu visto bueno + referencias (footer y artistas) + lista de artistas con productos. Con eso arrancamos.</p></div></div>
-    <div class="st"><span class="day">Días 1–3</span><div class="c"><h4>Arreglos rápidos y visibilidad</h4><p>Correcciones de raíz y lo que se ve de una.</p><div class="pts-mini"><span><b>3</b>Related products</span><span><b>9</b>Enlace artistas</span><span><b>7</b>Barra de búsqueda</span></div></div></div>
-    <div class="st"><span class="day">Días 4–8</span><div class="c"><h4>Autonomía y contenido</h4><p>Dejar la web editable sin código.</p><div class="pts-mini"><span><b>4</b>Autonomía de productos</span><span><b>6</b>Metafields</span></div></div></div>
-    <div class="st"><span class="day">Días 6–12</span><div class="c"><h4>Diseño y conversión</h4><p>Rediseños (dependen de tus referencias) y venta.</p><div class="pts-mini"><span><b>1</b>Footer</span><span><b>2</b>Páginas de artista</span><span><b>5</b>Licensing Partners</span><span><b>8</b>Cross-sell</span></div></div></div>
-    <div class="st"><span class="day g">Días 13–15</span><div class="c"><h4>Pruebas y entrega</h4><p>QA en desktop y móvil, mini-guía para gestionar sin código, y entrega final.</p></div></div>
+    <div class="st"><span class="day">01</span><div class="c"><h4>Apruebas y eliges</h4><p>Marcas la opción A o B que más te gusta en cada punto y nos das el visto bueno.</p></div></div>
+    <div class="st"><span class="day">02</span><div class="c"><h4>Nos das acceso</h4><p>Nos agregas como colaboradores en tu Shopify (aquí abajo te decimos cómo, toma un minuto).</p></div></div>
+    <div class="st"><span class="day">03</span><div class="c"><h4>Hacemos los cambios</h4><p>Aplicamos los nueve puntos directo en tu tienda, con tu marca y sin romper nada.</p></div></div>
+    <div class="st"><span class="day">04</span><div class="c"><h4>Te lo mostramos en vivo</h4><p>Ves cada cambio funcionando en tu web real y nos dices si ajustamos algo.</p></div></div>
+    <div class="st"><span class="day">05</span><div class="c"><h4>Queda realizado</h4><p>Apruebas la versión final y listo — con una mini-guía para que gestiones sin código.</p></div></div>
+  </div>
+
+  <div class="access">
+    <span class="aeye">Lo único que necesitamos de ti</span>
+    <h3>Danos acceso de colaborador</h3>
+    <p class="ap">En tu Shopify: <b>Configuración → Usuarios y permisos → Colaboradores</b>. Aprueba nuestra solicitud (o activa las solicitudes de colaborador) para este correo:</p>
+    <div class="mailrow"><span class="mail">mateo.corredor@helloremake.com</span></div>
+    <p class="ap tiny">Los colaboradores no ocupan un puesto de tu equipo y puedes quitarnos el acceso cuando quieras. Nunca necesitamos tu contraseña.</p>
   </div>
 </div></section>
 
@@ -574,7 +590,7 @@ section{padding-block:clamp(28px,4.5vw,44px)}
 (function(){
   if(!('IntersectionObserver' in window)) return;
   document.documentElement.classList.add('anim');
-  var els=document.querySelectorAll('.pt, .tl, .steps, .goal, .urg, .howto');
+  var els=document.querySelectorAll('.pt, .tl, .steps, .goal, .urg, .howto, .access');
   els.forEach(function(e){e.classList.add('reveal')});
   var io=new IntersectionObserver(function(ents){
     ents.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
